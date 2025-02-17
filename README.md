@@ -1,12 +1,12 @@
 LEEME:
 
 
-- Hay dos proyectos Spring boot:
- - Proyecto Principal:
+- Hay dos proyectos Spring boot. Ambos tienen que levantarse con el Tomcat:  
+ 1- Proyecto Principal:
    api.asisvirtual 
- - APi external:
+ 2- APi external:
     weatherapi
- Ambos tienen que levantarse con el Tomcat.
+ 
 
 -Palabras claves para realizar consultas:
  Messi, Maradona, Java, Luna, Argentina, America, Tango.
