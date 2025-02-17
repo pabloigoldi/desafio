@@ -2,8 +2,10 @@ LEEME:
 
 
 - Hay dos proyectos Spring boot:
- - Asistencia virtual: api.asisvirtual 
- - APi external: weatherapi
+ - Proyecto Principal:
+   api.asisvirtual 
+ - APi external:
+    weatherapi
  Ambos tienen que levantarse con el Tomcat.
 
 -Palabras claves para realizar consultas:
