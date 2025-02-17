@@ -1,0 +1,16 @@
+2025-02-16 21:07:30.300  INFO 2004 --- [main] com.weatherapi.WeatherapiApplication     : Starting WeatherapiApplication using Java 21.0.4 on DESKTOP-IO8ADRA with PID 2004 (C:\Users\User\Documents\Desa\wsSpringBoot\weatherapi\target\classes started by User in C:\Users\User\Documents\Desa\wsSpringBoot\weatherapi)
+2025-02-16 21:07:30.306  INFO 2004 --- [main] com.weatherapi.WeatherapiApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-16 21:07:31.701  INFO 2004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2025-02-16 21:07:31.713  INFO 2004 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-16 21:07:31.713  INFO 2004 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-02-16 21:07:31.851  INFO 2004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-16 21:07:31.851  INFO 2004 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1465 ms
+2025-02-16 21:07:32.533  INFO 2004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2025-02-16 21:07:32.730  INFO 2004 --- [main] com.weatherapi.WeatherapiApplication     : Started WeatherapiApplication in 2.866 seconds (JVM running for 3.925)
+2025-02-16 21:08:57.506  INFO 2004 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-16 21:08:57.506  INFO 2004 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-16 21:08:57.508  INFO 2004 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-16 21:08:57.583  INFO 2004 --- [http-nio-8081-exec-1] c.w.controller.WeatherController         : INGRESANDO A WeatherController.post(). CIUDAD: BUENOS AIRES.
+2025-02-16 21:09:31.467  INFO 2004 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-16 21:09:31.473  INFO 2004 --- [RMI TCP Connection(10)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-16 21:09:31.474  INFO 2004 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'

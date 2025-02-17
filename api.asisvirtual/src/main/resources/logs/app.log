@@ -1,0 +1,272 @@
+2025-02-16 20:36:34.505  INFO 6124 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2025-02-16 20:36:34.621  INFO 6124 --- [main] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2025-02-16 20:36:34.621  WARN 6124 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/asisvirtual/default": Connection refused: getsockopt; nested exception is java.net.ConnectException: Connection refused: getsockopt
+2025-02-16 20:36:34.623  INFO 6124 --- [main] com.api.asisvirtual.Application          : No active profile set, falling back to 1 default profile: "default"
+2025-02-16 20:36:35.932  INFO 6124 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=eb71c9db-ea5a-3e12-9b92-9311cb2f5f9c
+2025-02-16 20:36:36.415  INFO 6124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-16 20:36:36.429  INFO 6124 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-16 20:36:36.429  INFO 6124 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-02-16 20:36:36.627  INFO 6124 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-16 20:36:36.628  INFO 6124 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1986 ms
+2025-02-16 20:36:37.564  INFO 6124 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@59f76e56, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@566f4659, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ddb302, org.springframework.security.web.header.HeaderWriterFilter@36871e98, org.springframework.security.web.authentication.logout.LogoutFilter@68821f6, com.api.asisvirtual.security.JwtAuthenticationFilter@642c6461, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@cf9bd1e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@39acd1f1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1328f482, org.springframework.security.web.session.SessionManagementFilter@7ac685ef, org.springframework.security.web.access.ExceptionTranslationFilter@5d5574c7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@37f71c05]
+2025-02-16 20:36:37.961  INFO 6124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-16 20:36:38.150  INFO 6124 --- [main] com.api.asisvirtual.Application          : Started Application in 4.705 seconds (JVM running for 5.683)
+2025-02-16 20:36:46.621  INFO 6124 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-16 20:36:46.621  INFO 6124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-16 20:36:46.624  INFO 6124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-16 20:36:54.856  INFO 6124 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-16 20:36:54.863  INFO 6124 --- [RMI TCP Connection(8)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-16 20:36:54.864  INFO 6124 --- [RMI TCP Connection(8)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-02-16 20:37:24.148  INFO 7784 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2025-02-16 20:37:24.280  INFO 7784 --- [main] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2025-02-16 20:37:24.281  WARN 7784 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/asisvirtual/default": Connection refused: getsockopt; nested exception is java.net.ConnectException: Connection refused: getsockopt
+2025-02-16 20:37:24.283  INFO 7784 --- [main] com.api.asisvirtual.Application          : No active profile set, falling back to 1 default profile: "default"
+2025-02-16 20:37:25.249  INFO 7784 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=eb71c9db-ea5a-3e12-9b92-9311cb2f5f9c
+2025-02-16 20:37:25.615  INFO 7784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-16 20:37:25.626  INFO 7784 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-16 20:37:25.626  INFO 7784 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-02-16 20:37:25.767  INFO 7784 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-16 20:37:25.768  INFO 7784 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1465 ms
+2025-02-16 20:37:26.532  INFO 7784 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@603f4e3e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45fb2354, org.springframework.security.web.context.SecurityContextPersistenceFilter@6630dd28, org.springframework.security.web.header.HeaderWriterFilter@61c4cebd, org.springframework.security.web.authentication.logout.LogoutFilter@51813065, com.api.asisvirtual.security.JwtAuthenticationFilter@25699aa7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4489f60f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@fe08eaf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c7d8a4, org.springframework.security.web.session.SessionManagementFilter@698ac187, org.springframework.security.web.access.ExceptionTranslationFilter@563843f1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@12a6e8ed]
+2025-02-16 20:37:26.926  INFO 7784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-16 20:37:27.130  INFO 7784 --- [main] com.api.asisvirtual.Application          : Started Application in 3.937 seconds (JVM running for 4.797)
+2025-02-16 20:37:37.156  INFO 7784 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-16 20:37:37.157  INFO 7784 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-16 20:37:37.159  INFO 7784 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-16 20:37:37.280  INFO 7784 --- [http-nio-8080-exec-1] c.a.a.controller.AuthController          : INTENTO DE AUTENTICACION DEL USUARIO: userdemo.
+2025-02-16 20:37:37.281  INFO 7784 --- [http-nio-8080-exec-1] c.a.a.service.IAuthServiceImpl           : INGRESA A IAuthServiceImpl.buildToken().
+2025-02-16 20:37:37.648  INFO 7784 --- [http-nio-8080-exec-1] c.a.a.service.IAuthServiceImpl           : GESTIONA EXITOSAMENTE EL authenticationManager.
+2025-02-16 20:37:37.763  INFO 7784 --- [http-nio-8080-exec-1] c.a.a.service.IAuthServiceImpl           : GENERA EL userDetails.
+2025-02-16 20:37:38.113  INFO 7784 --- [http-nio-8080-exec-1] c.a.a.service.IAuthServiceImpl           : GENERA EL JWT.
+2025-02-16 20:38:38.317  INFO 7784 --- [http-nio-8080-exec-8] c.a.a.c.AsistenteVirtualController       : INGRESANDO A AsistenteVirtualController.post(). PREGUNTA: string.
+2025-02-16 20:38:38.318  INFO 7784 --- [http-nio-8080-exec-8] c.a.a.s.AsistenteVirtualServiceImpl      : INGRESANDO A AsistenteVirtualImpl.gestionarChat().
+2025-02-16 20:38:38.333 ERROR 7784 --- [http-nio-8080-exec-8] c.a.a.s.AsistenteVirtualServiceImpl      : ERROR EN AsistenteVirtualImpl.gestionarChat(). CONSULTA: RequestChat(question=string). ERROR: No entiendo la pregunta..
+2025-02-16 20:38:38.334 ERROR 7784 --- [http-nio-8080-exec-8] c.a.a.controller.GlobalExceptionHandler  : GlobalExceptionHandler.handleBusinessException().
+2025-02-16 20:38:59.305  INFO 7784 --- [http-nio-8080-exec-9] c.a.a.c.AsistenteVirtualController       : INGRESANDO A AsistenteVirtualController.post(). PREGUNTA: pele.
+2025-02-16 20:38:59.306  INFO 7784 --- [http-nio-8080-exec-9] c.a.a.s.AsistenteVirtualServiceImpl      : INGRESANDO A AsistenteVirtualImpl.gestionarChat().
+2025-02-16 20:38:59.307 ERROR 7784 --- [http-nio-8080-exec-9] c.a.a.s.AsistenteVirtualServiceImpl      : ERROR EN AsistenteVirtualImpl.gestionarChat(). CONSULTA: RequestChat(question=pele). ERROR: No entiendo la pregunta..
+2025-02-16 20:38:59.307 ERROR 7784 --- [http-nio-8080-exec-9] c.a.a.controller.GlobalExceptionHandler  : GlobalExceptionHandler.handleBusinessException().
+2025-02-16 20:39:08.125  INFO 7784 --- [http-nio-8080-exec-10] c.a.a.c.AsistenteVirtualController       : INGRESANDO A AsistenteVirtualController.post(). PREGUNTA: Messi.
+2025-02-16 20:39:08.126  INFO 7784 --- [http-nio-8080-exec-10] c.a.a.s.AsistenteVirtualServiceImpl      : INGRESANDO A AsistenteVirtualImpl.gestionarChat().
+2025-02-16 20:39:11.532  INFO 7784 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-16 20:39:11.538  INFO 7784 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-16 20:39:11.539  INFO 7784 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-02-16 20:58:27.398  INFO 6668 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2025-02-16 20:58:27.507  INFO 6668 --- [main] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2025-02-16 20:58:27.508  WARN 6668 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/asisvirtual/default": Connection refused: getsockopt; nested exception is java.net.ConnectException: Connection refused: getsockopt
+2025-02-16 20:58:27.510  INFO 6668 --- [main] com.api.asisvirtual.Application          : No active profile set, falling back to 1 default profile: "default"
+2025-02-16 20:58:28.487  INFO 6668 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=eb71c9db-ea5a-3e12-9b92-9311cb2f5f9c
+2025-02-16 20:58:28.840  INFO 6668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-16 20:58:28.851  INFO 6668 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-16 20:58:28.851  INFO 6668 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-02-16 20:58:28.995  INFO 6668 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-16 20:58:28.995  INFO 6668 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1468 ms
+2025-02-16 20:58:29.739  INFO 6668 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7a117dc2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d444652, org.springframework.security.web.context.SecurityContextPersistenceFilter@25d9291a, org.springframework.security.web.header.HeaderWriterFilter@34e25492, org.springframework.security.web.authentication.logout.LogoutFilter@f1d1463, com.api.asisvirtual.security.JwtAuthenticationFilter@2e4eda17, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d5574c7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a7a6d34, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@669c2b07, org.springframework.security.web.session.SessionManagementFilter@70022d44, org.springframework.security.web.access.ExceptionTranslationFilter@41059616, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6200b644]
+2025-02-16 20:58:30.118  INFO 6668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-16 20:58:30.308  INFO 6668 --- [main] com.api.asisvirtual.Application          : Started Application in 3.815 seconds (JVM running for 4.719)
+2025-02-16 20:58:49.272  INFO 6668 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-16 20:58:49.273  INFO 6668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-16 20:58:49.277  INFO 6668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-02-16 20:59:25.671  INFO 6668 --- [http-nio-8080-exec-1] c.a.a.controller.AuthController          : INTENTO DE AUTENTICACION DEL USUARIO: userdemo.
+2025-02-16 20:59:25.672  INFO 6668 --- [http-nio-8080-exec-1] c.a.a.service.IAuthServiceImpl           : INGRESA A IAuthServiceImpl.buildToken().
+2025-02-16 20:59:26.020  INFO 6668 --- [http-nio-8080-exec-1] c.a.a.service.IAuthServiceImpl           : GESTIONA EXITOSAMENTE EL authenticationManager.
+2025-02-16 20:59:26.132  INFO 6668 --- [http-nio-8080-exec-1] c.a.a.service.IAuthServiceImpl           : GENERA EL userDetails.
+2025-02-16 20:59:26.417  INFO 6668 --- [http-nio-8080-exec-1] c.a.a.service.IAuthServiceImpl           : GENERA EL JWT.
+2025-02-16 20:59:57.458  INFO 6668 --- [http-nio-8080-exec-5] c.a.a.c.AsistenteVirtualController       : INGRESANDO A AsistenteVirtualController.post(). PREGUNTA: string.
+2025-02-16 20:59:57.459  INFO 6668 --- [http-nio-8080-exec-5] c.a.a.s.AsistenteVirtualServiceImpl      : INGRESANDO A AsistenteVirtualImpl.gestionarChat().
+2025-02-16 20:59:57.476 ERROR 6668 --- [http-nio-8080-exec-5] c.a.a.s.AsistenteVirtualServiceImpl      : ERROR EN AsistenteVirtualImpl.gestionarChat(). CONSULTA: RequestChat(question=string). ERROR: No entiendo la pregunta..
+2025-02-16 20:59:57.478 ERROR 6668 --- [http-nio-8080-exec-5] c.a.a.controller.GlobalExceptionHandler  : GlobalExceptionHandler.handleBusinessException().
+2025-02-16 21:00:04.597  INFO 6668 --- [http-nio-8080-exec-4] c.a.a.c.AsistenteVirtualController       : INGRESANDO A AsistenteVirtualController.post(). PREGUNTA: America.
+2025-02-16 21:00:04.597  INFO 6668 --- [http-nio-8080-exec-4] c.a.a.s.AsistenteVirtualServiceImpl      : INGRESANDO A AsistenteVirtualImpl.gestionarChat().
+2025-02-16 21:00:17.495  INFO 6668 --- [http-nio-8080-exec-7] c.a.a.c.AsistenteVirtualController       : INGRESANDO A AsistenteVirtualController.post(). PREGUNTA: Luna.
+2025-02-16 21:00:17.496  INFO 6668 --- [http-nio-8080-exec-7] c.a.a.s.AsistenteVirtualServiceImpl      : INGRESANDO A AsistenteVirtualImpl.gestionarChat().
+2025-02-16 21:01:48.374  INFO 6668 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-16 21:01:48.380  INFO 6668 --- [RMI TCP Connection(14)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-16 21:01:48.381  INFO 6668 --- [RMI TCP Connection(14)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-02-16 21:05:27.310  INFO 8044 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2025-02-16 21:05:27.410  INFO 8044 --- [main] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2025-02-16 21:05:27.410  WARN 8044 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/asisvirtual/default": Connection refused: getsockopt; nested exception is java.net.ConnectException: Connection refused: getsockopt
+2025-02-16 21:05:27.412  INFO 8044 --- [main] com.api.asisvirtual.Application          : No active profile set, falling back to 1 default profile: "default"
+2025-02-16 21:05:28.305  INFO 8044 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=eb71c9db-ea5a-3e12-9b92-9311cb2f5f9c
+2025-02-16 21:05:28.665  INFO 8044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-16 21:05:28.675  INFO 8044 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-16 21:05:28.676  INFO 8044 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-02-16 21:05:28.818  INFO 8044 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-16 21:05:28.818  INFO 8044 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1390 ms
+2025-02-16 21:05:28.841 ERROR 8044 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\User\Documents\Desa\wsSpringBoot\api.asisvirtual\target\classes\com\api\asisvirtual\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDetailsServiceImpl' defined in file [C:\Users\User\Documents\Desa\wsSpringBoot\api.asisvirtual\target\classes\com\api\asisvirtual\security\UserDetailsServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.security.user.roles' in value "${spring.security.user.roles}"
+2025-02-16 21:05:28.867  INFO 8044 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-16 21:05:28.874  WARN 8044 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2025-02-16 21:05:28.882  INFO 8044 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-02-16 21:05:28.909 ERROR 8044 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:585) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289) ~[spring-boot-2.7.18.jar:2.7.18]
+	at com.api.asisvirtual.Application.main(Application.java:17) ~[classes/:na]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:481) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-2.7.18.jar:2.7.18]
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\User\Documents\Desa\wsSpringBoot\api.asisvirtual\target\classes\com\api\asisvirtual\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDetailsServiceImpl' defined in file [C:\Users\User\Documents\Desa\wsSpringBoot\api.asisvirtual\target\classes\com\api\asisvirtual\security\UserDetailsServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.security.user.roles' in value "${spring.security.user.roles}"
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:801) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:224) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:213) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:176) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:171) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:156) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:262) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:236) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4904) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:489) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-2.7.18.jar:2.7.18]
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDetailsServiceImpl' defined in file [C:\Users\User\Documents\Desa\wsSpringBoot\api.asisvirtual\target\classes\com\api\asisvirtual\security\UserDetailsServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.security.user.roles' in value "${spring.security.user.roles}"
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:801) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:224) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:911) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788) ~[spring-beans-5.3.31.jar:5.3.31]
+	... 54 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.security.user.roles' in value "${spring.security.user.roles}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:414) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:911) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788) ~[spring-beans-5.3.31.jar:5.3.31]
+	... 68 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.security.user.roles' in value "${spring.security.user.roles}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180) ~[spring-core-5.3.31.jar:5.3.31]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126) ~[spring-core-5.3.31.jar:5.3.31]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239) ~[spring-core-5.3.31.jar:5.3.31]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-5.3.31.jar:5.3.31]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191) ~[spring-context-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1332) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.31.jar:5.3.31]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:408) ~[spring-beans-5.3.31.jar:5.3.31]
+	... 80 common frames omitted
+
+2025-02-16 21:05:28.912 ERROR 8044 --- [main] com.api.asisvirtual.Application          : ERROR INICIANDO APLICACION: ASISTENTE VIRTUAL:org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2025-02-16 21:06:02.303  INFO 5824 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2025-02-16 21:06:02.401  INFO 5824 --- [main] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2025-02-16 21:06:02.402  WARN 5824 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/asisvirtual/default": Connection refused: getsockopt; nested exception is java.net.ConnectException: Connection refused: getsockopt
+2025-02-16 21:06:02.404  INFO 5824 --- [main] com.api.asisvirtual.Application          : No active profile set, falling back to 1 default profile: "default"
+2025-02-16 21:06:03.284  INFO 5824 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=eb71c9db-ea5a-3e12-9b92-9311cb2f5f9c
+2025-02-16 21:06:03.634  INFO 5824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-16 21:06:03.644  INFO 5824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-16 21:06:03.644  INFO 5824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-02-16 21:06:03.782  INFO 5824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-16 21:06:03.783  INFO 5824 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1364 ms
+2025-02-16 21:06:04.513  INFO 5824 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6c66ddab, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@603f4e3e, org.springframework.security.web.context.SecurityContextPersistenceFilter@65f5cae3, org.springframework.security.web.header.HeaderWriterFilter@38cb1606, org.springframework.security.web.authentication.logout.LogoutFilter@39acd1f1, com.api.asisvirtual.security.JwtAuthenticationFilter@25699aa7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5909ae90, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4489f60f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45fb2354, org.springframework.security.web.session.SessionManagementFilter@5f2b9da8, org.springframework.security.web.access.ExceptionTranslationFilter@4348fa35, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@768f4b42]
+2025-02-16 21:06:04.881  INFO 5824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-16 21:06:05.070  INFO 5824 --- [main] com.api.asisvirtual.Application          : Started Application in 3.655 seconds (JVM running for 4.504)
+2025-02-16 21:06:31.956  INFO 5824 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-16 21:06:31.957  INFO 5824 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-16 21:06:31.959  INFO 5824 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-16 21:06:47.947  INFO 5824 --- [http-nio-8080-exec-6] c.a.a.controller.AuthController          : INTENTO DE AUTENTICACION DEL USUARIO: userdemo.
+2025-02-16 21:06:47.948  INFO 5824 --- [http-nio-8080-exec-6] c.a.a.service.IAuthServiceImpl           : INGRESA A IAuthServiceImpl.buildToken().
+2025-02-16 21:06:48.288  INFO 5824 --- [http-nio-8080-exec-6] c.a.a.service.IAuthServiceImpl           : GESTIONA EXITOSAMENTE EL authenticationManager.
+2025-02-16 21:06:48.400  INFO 5824 --- [http-nio-8080-exec-6] c.a.a.service.IAuthServiceImpl           : GENERA EL userDetails.
+2025-02-16 21:06:48.690  INFO 5824 --- [http-nio-8080-exec-6] c.a.a.service.IAuthServiceImpl           : GENERA EL JWT.
+2025-02-16 21:07:07.066 ERROR 5824 --- [http-nio-8080-exec-8] c.a.a.controller.GlobalExceptionHandler  : GlobalExceptionHandler.handleAccessDeniedException(): Access is denied
+2025-02-16 21:07:19.525  INFO 5824 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-16 21:07:19.531  INFO 5824 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-16 21:07:19.532  INFO 5824 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-02-16 21:07:31.289  INFO 4756 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2025-02-16 21:07:31.398  INFO 4756 --- [main] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2025-02-16 21:07:31.398  WARN 4756 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/asisvirtual/default": Connection refused: getsockopt; nested exception is java.net.ConnectException: Connection refused: getsockopt
+2025-02-16 21:07:31.401  INFO 4756 --- [main] com.api.asisvirtual.Application          : No active profile set, falling back to 1 default profile: "default"
+2025-02-16 21:07:32.417  INFO 4756 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=eb71c9db-ea5a-3e12-9b92-9311cb2f5f9c
+2025-02-16 21:07:32.824  INFO 4756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-16 21:07:32.835  INFO 4756 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-16 21:07:32.835  INFO 4756 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-02-16 21:07:32.990  INFO 4756 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-16 21:07:32.991  INFO 4756 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1570 ms
+2025-02-16 21:07:33.734  INFO 4756 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3c64339f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@579f3c8e, org.springframework.security.web.context.SecurityContextPersistenceFilter@f49e81a, org.springframework.security.web.header.HeaderWriterFilter@5909ae90, org.springframework.security.web.authentication.logout.LogoutFilter@44ddb518, com.api.asisvirtual.security.JwtAuthenticationFilter@15369d73, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@459bf87c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ae66c98, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4eb1943b, org.springframework.security.web.session.SessionManagementFilter@36871e98, org.springframework.security.web.access.ExceptionTranslationFilter@7b3c2ae0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6a902015]
+2025-02-16 21:07:34.124  INFO 4756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-16 21:07:34.318  INFO 4756 --- [main] com.api.asisvirtual.Application          : Started Application in 4.082 seconds (JVM running for 5.109)
+2025-02-16 21:07:42.063  INFO 4756 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-16 21:07:42.064  INFO 4756 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-16 21:07:42.066  INFO 4756 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-16 21:08:02.365  INFO 4756 --- [http-nio-8080-exec-5] c.a.a.controller.AuthController          : INTENTO DE AUTENTICACION DEL USUARIO: userdemo.
+2025-02-16 21:08:02.366  INFO 4756 --- [http-nio-8080-exec-5] c.a.a.service.IAuthServiceImpl           : INGRESA A IAuthServiceImpl.buildToken().
+2025-02-16 21:08:02.705  INFO 4756 --- [http-nio-8080-exec-5] c.a.a.service.IAuthServiceImpl           : GESTIONA EXITOSAMENTE EL authenticationManager.
+2025-02-16 21:08:02.817  INFO 4756 --- [http-nio-8080-exec-5] c.a.a.service.IAuthServiceImpl           : GENERA EL userDetails.
+2025-02-16 21:08:03.095  INFO 4756 --- [http-nio-8080-exec-5] c.a.a.service.IAuthServiceImpl           : GENERA EL JWT.
+2025-02-16 21:08:17.899  INFO 4756 --- [http-nio-8080-exec-8] c.a.a.c.AsistenteVirtualController       : INGRESANDO A AsistenteVirtualController.post(). PREGUNTA: string.
+2025-02-16 21:08:17.900  INFO 4756 --- [http-nio-8080-exec-8] c.a.a.s.AsistenteVirtualServiceImpl      : INGRESANDO A AsistenteVirtualImpl.gestionarChat().
+2025-02-16 21:08:17.915 ERROR 4756 --- [http-nio-8080-exec-8] c.a.a.s.AsistenteVirtualServiceImpl      : ERROR EN AsistenteVirtualImpl.gestionarChat(). CONSULTA: RequestChat(question=string). ERROR: No entiendo la pregunta..
+2025-02-16 21:08:17.917 ERROR 4756 --- [http-nio-8080-exec-8] c.a.a.controller.GlobalExceptionHandler  : GlobalExceptionHandler.handleBusinessException().
+2025-02-16 21:08:27.965  INFO 4756 --- [http-nio-8080-exec-7] c.a.a.c.AsistenteVirtualController       : INGRESANDO A AsistenteVirtualController.post(). PREGUNTA: tango.
+2025-02-16 21:08:27.965  INFO 4756 --- [http-nio-8080-exec-7] c.a.a.s.AsistenteVirtualServiceImpl      : INGRESANDO A AsistenteVirtualImpl.gestionarChat().
+2025-02-16 21:08:57.427  INFO 4756 --- [http-nio-8080-exec-6] c.a.a.c.AsistenteVirtualController       : INGRESANDO A AsistenteVirtualController.post(). PREGUNTA: tiempo ahora.
+2025-02-16 21:08:57.428  INFO 4756 --- [http-nio-8080-exec-6] c.a.a.s.AsistenteVirtualServiceImpl      : INGRESANDO A AsistenteVirtualImpl.gestionarChat().
+2025-02-16 21:09:08.718  INFO 4756 --- [http-nio-8080-exec-3] c.a.a.c.AsistenteVirtualController       : INGRESANDO A AsistenteVirtualController.post(). PREGUNTA: hora.
+2025-02-16 21:09:08.718  INFO 4756 --- [http-nio-8080-exec-3] c.a.a.s.AsistenteVirtualServiceImpl      : INGRESANDO A AsistenteVirtualImpl.gestionarChat().
+2025-02-16 21:09:29.342  INFO 4756 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-16 21:09:29.348  INFO 4756 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-16 21:09:29.349  INFO 4756 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
