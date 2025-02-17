@@ -1,0 +1,9 @@
+
+- Hay dos proyectos Spring boot:
+ - Asistencia virtual: api.asisvirtual 
+ - APi external: weatherapi
+ Ambos tienen que levantarse con el Tomcat.
+
+-Palabras claves para realizar consultas:
+ Messi, Maradona, Java, Luna, Argentina, America, Tango.
+ O preguntar por el clima o la hora.
